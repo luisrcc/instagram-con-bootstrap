@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <title>Proyecto instagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm bg-light fixed-top">
+                    <a class="navbar-brand" href="#">
+                        <ul class="navbar-nav">
+                            <img src="img/instagram_f_icon-icons.com_65485.png" alt="logo" style="width: 40px;">
+                    </a>
+                    <li class="nav-item" style="margin-top: 0.5rem;">
+                        <h2>Instagram</h2>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto" style="padding-left: 60%;">
+                        <li>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">New
+                                Post</button>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto" style="margin-right: 6rem;">
+                        <li>
+                            <div class="dropdown">
+                                <button type="button" class="btn" data-toggle="dropdown">
+                                    <img src="img/settings_icon-icons.com_61211.png" style="width: 25px">
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#">Porfile</a>
+                                    <a class="dropdown-item" href="#">Settings</a>
+                                    <a class="dropdown-item" href="#">Log out</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Modal Heading</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="comment">Post</label>
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    <img src="img/photo-camera.png" width="25px" style="margin-top: 1%;">
+                                    <img src="img/placeholder.png" width="25px" style="margin-top: 1%;">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal"
+                                        style="margin-top: 1%; margin-left: 13rem;">Cancelar</button>
+                                    <button type="button" class="btn btn-success"
+                                        style="margin-top: 1%">Publicar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar sticky-top navbar-white bg-white">
+        <ul style="margin-left: 39rem;">
+            <button type="button" class="btn">
+                <img src="img/menu.png" width="25px" style="margin-top: 5rem;">
+            </button>
+            <button type="button" class="btn" width= "25px">
+                <img src="img/list-1.png" width="25px" style="margin-top: 5rem;">
+                <a href="../index1.html"></a>
+            </button>
+        </ul>
+    </nav>
+
+    <div class="container" style="margin-top: 4.5rem;">
+        <div class="row">
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/animals" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/arch" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/nature" class="img-thumbnail">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/people" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/tech" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/any/grayscale" class="img-thumbnail">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/animals" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/any/grayscale" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+                <img src="https://placeimg.com/400/480/nature" class="img-thumbnail">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
