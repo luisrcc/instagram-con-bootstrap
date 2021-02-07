@@ -1,120 +1,208 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title>Mi Estilo Instagram</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto instagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<h1>BeartheCode Photo Feed</h1>
-		</div>
-	</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm bg-light fixed-top">
+                    <a class="navbar-brand" href="#">
+                        <ul class="navbar-nav">
+                            <img src="img/instagram_f_icon-icons.com_65485.png" alt="logo" style="width: 40px;">
+                    </a>
+                    <li class="nav-item" style="margin-top: 0.5rem;">
+                        <h2>Instagram</h2>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto" style="padding-left: 60%;">
+                        <li>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">New
+                                Post</button>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto" style="margin-right: 6rem;">
+                        <li>
+                            <div class="dropdown">
+                                <button type="button" class="btn" data-toggle="dropdown">
+                                    <img src="img/settings_icon-icons.com_61211.png" style="width: 25px">
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#">Porfile</a>
+                                    <a class="dropdown-item" href="#">Settings</a>
+                                    <a class="dropdown-item" href="#">Log out</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Modal Heading</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="comment">Post</label>
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    <img src="img/photo-camera.png" width="25px" style="margin-top: 1%;">
+                                    <img src="img/placeholder.png" width="25px" style="margin-top: 1%;">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal"
+                                        style="margin-top: 1%; margin-left: 13rem;">Cancelar</button>
+                                    <button type="button" class="btn btn-success"
+                                        style="margin-top: 1%">Publicar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar sticky-top navbar-white bg-white">
+        <ul style="margin: auto;">
+            <a href="index.html"> 
+            <i class="fas fa-grip-horizontal fa-2x" style="margin-top: 5rem; margin-right: 0.5rem;"></i>
+            </a>
+            <a href="index1.html">
+                <i class="fas fa-clone fa-2x" style="margin-top: 5rem; margin-left: 0.5rem;"></i>
+            </a>
+        </ul>
+    </nav>
 	<div class="container">
 		<div class="post">
 			<div>
 				<img class="perfil" src="1511936948186_53605a1f8e2f117b874504a42b735a7f.png">
 					<h2 class="usuario">4geeks.academy</h2>
-						<h3>Santiago de Chile</h3>
-				<div class="opciones"><img src="more-1.png" width="25px" height="25px"></div>
-			</div>
-			<div>
-				<img src="http://placeimg.com/640/480/people">
-			</div>
-			<div class="iconos">
-				<img src="heart-2.png" width="25px" height="25px">
-				<img src="communication-4.png" width="25px" height="25px">
-				<img src="cursor-2.png" width="25px" height="25px">
-				<div class="marca"><img src="bookmark.png" width="25px" height="25px"></div>
 
-				<p>Esta es mi primera foto de, todas las fotos que voy subir aprendiendo a
-					programar.<strong>#BreatheCode...</strong></p>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="post">
-			<div>
-				<h2>4geeks.academy</h2>
-				<div class="opciones"><img src="more-1.png" width="25px" height="25px"></div>
+				<div class="opciones">
+                    <i class="fas fa-share-alt fa-2x"></i>
+                </div>
 			</div>
 			<div>
-				<img src="http://placeimg.com/640/480/animals">
+				<img src="http://placeimg.com/610/480/people">
 			</div>
 			<div class="iconos">
-				<img src="heart-2.png" width="25px" height="25px">
-				<img src="communication-4.png" width="25px" height="25px">
-				<img src="cursor-2.png" width="25px" height="25px">
-				<div class="marca"><img src="bookmark.png" width="25px" height="25px"></div>
-				programar.<strong>#BreatheCode...</strong>
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="post">
-			<div>
-				<h2>4geeks.academy</h2>
-				<div class="opciones"><img src="more-1.png" width="25px" height="25px"></div>
-			</div>
-			<div>
-				<img src="http://placeimg.com/640/480/tech">
-			</div>
-			<div class="iconos">
-				<img src="heart-2.png" width="25px" height="25px">
-				<img src="communication-4.png" width="25px" height="25px">
-				<img src="cursor-2.png" width="25px" height="25px">
-				<div class="marca"><img src="bookmark.png" width="25px" height="25px"></div>
-				<p>Esta es mi tercera foto de, todas las fotos que voy subir aprendiendo a
-					programar.<strong>#BreatheCode...</strong>
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="post">
-			<div>
-				<h2>4geeks.academy</h2>
-				<div class="opciones"><img src="more-1.png" width="25px" height="25px"></div>
-			</div>
-			<div>
-				<img src="http://placeimg.com/640/480/nature">
-			</div>
-			<div class="iconos">
-				<img src="heart-2.png" width="25px" height="25px">
-				<img src="communication-4.png" width="25px" height="25px">
-				<img src="cursor-2.png" width="25px" height="25px">
-				<div class="marca"><img src="bookmark.png" width="25px" height="25px"></div>
-				<p>Esta es mi cuarta foto de, todas las fotos que voy subir aprendiendo a
-					programar.<strong>##BreatheCode...</strong>
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="post">
-			<div>
-				<h2>4geeks.academy</h2>
-				<div class="opciones"><img src="more-1.png" width="25px" height="25px"></div>
-			</div>
-			<div>
-				<img src="http://placeimg.com/640/480/arch">
-			</div>
-			<div class="iconos">
-				<img src="heart-2.png" width="25px" height="25px">
-				<img src="communication-4.png" width="25px" height="25px">
-				<img src="cursor-2.png" width="25px" height="25px">
-				<div class="marca"><img src="bookmark.png" width="25px" height="25px"></div>
-				<p>Esta es mi quinta foto de, todas las fotos que voy subir aprendiendo a
-					programar.<strong>#BreatheCode...</strong>
-				</p>
-			</div>
-		</div>
-	</div>
-</body>
+				<i class="far fa-heart fa-2x" ></i>
+				<i class="far fa-comment fa-2x"></i>
+				<i class="far fa-paper-plane fa-2x"></i>
+				<div class="marca">
+                    <i class="far fa-bookmark fa-2x"></i>
+                </div>
 
-</html>
+				<p>Esta es mi primera foto de todas las fotos que voy subir aprendiendo a programar.<strong>#BreatheCode...</strong></p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="post">
+			<div>
+                <img class="perfil" src="1511936948186_53605a1f8e2f117b874504a42b735a7f.png">
+                <h2>4geeks.academy</h2>
+                
+				<div class="opciones">
+                    <i class="fas fa-share-alt fa-2x"></i>
+                </div>
+			</div>
+			<div>
+				<img src="http://placeimg.com/610/480/animals">
+			</div>
+			<div class="iconos">
+				<i class="far fa-heart fa-2x" ></i>
+				<i class="far fa-comment fa-2x"></i>
+				<i class="far fa-paper-plane fa-2x"></i>
+				<div class="marca">
+                    <i class="far fa-bookmark fa-2x"></i>
+                </div>
 
-</html>
+				<p>Esta es mi segunda foto de todas las fotos que voy subir aprendiendo a programar.<strong>#BreatheCode...</strong></p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="post">
+			<div>
+                <img class="perfil" src="1511936948186_53605a1f8e2f117b874504a42b735a7f.png">
+				<h2>4geeks.academy</h2>
+				<div class="opciones">
+                    <i class="fas fa-share-alt fa-2x"></i>
+                </div>
+			</div>
+			<div>
+				<img src="http://placeimg.com/610/480/tech">
+			</div>
+			<div class="iconos">
+				<i class="far fa-heart fa-2x" ></i>
+				<i class="far fa-comment fa-2x"></i>
+				<i class="far fa-paper-plane fa-2x"></i>
+				<div class="marca">
+                    <i class="far fa-bookmark fa-2x"></i>
+                </div>
+
+				<p>Esta es mi tercera foto de todas las fotos que voy subir aprendiendo a programar.<strong>#BreatheCode...</strong></p>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="post">
+			<div>
+                <img class="perfil" src="1511936948186_53605a1f8e2f117b874504a42b735a7f.png">
+				<h2>4geeks.academy</h2>
+				<div class="opciones">
+                    <i class="fas fa-share-alt fa-2x"></i>
+                </div>
+			</div>
+			<div>
+				<img src="http://placeimg.com/610/480/nature">
+			</div>
+			<div class="iconos">
+				<i class="far fa-heart fa-2x" ></i>
+				<i class="far fa-comment fa-2x"></i>
+				<i class="far fa-paper-plane fa-2x"></i>
+				<div class="marca">
+                    <i class="far fa-bookmark fa-2x"></i>
+                </div>
+
+				<p>Esta es mi cuarta foto de todas las fotos que voy subir aprendiendo a programar.<strong>#BreatheCode...</strong></p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="post">
+			<div>
+                <img class="perfil" src="1511936948186_53605a1f8e2f117b874504a42b735a7f.png">
+				<h2>4geeks.academy</h2>
+				<div class="opciones">
+                    <i class="fas fa-share-alt fa-2x"></i>
+                </div>
+			</div>
+			<div>
+				<img src="http://placeimg.com/610/480/arch">
+			</div>
+			<div class="iconos">
+				<i class="far fa-heart fa-2x" ></i>
+				<i class="far fa-comment fa-2x"></i>
+				<i class="far fa-paper-plane fa-2x"></i>
+				<div class="marca">
+                    <i class="far fa-bookmark fa-2x"></i>
+                </div>
+
+				<p>Esta es mi quinta foto de todas las fotos que voy subir aprendiendo a programar.<strong>#BreatheCode...</strong></p>
+			</div>
+		</div>
+	</div>

@@ -1,3 +1,52 @@
-body {
-    font-family: 'Nunito', sans-serif;;
+body{
+	
+	font-family: 'Nunito', sans-serif;;
+}
+
+.usuario {
+	font-size: 30px;
+	padding:  20px;
+}
+div.post p {
+	padding: 10px;
+}
+div.container{
+	width: 640px;
+	margin: auto;
+}
+span {
+	float: right;
+	color: #8D8D8D;
+}
+div.iconos {
+	padding-left: 10px;
+}
+
+div.marca {
+	padding-left: 95%;
+	position: relative;
+	margin-top: -4%;
+}
+
+div.opciones {
+	padding-left: 95%;
+	position: relative;
+	margin-top: -4%;
+}
+
+.perfil {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+h2 {
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+img{
+    border: 3px solid white;
 }
